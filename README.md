@@ -25,9 +25,9 @@ Repository contains:
 	This will takke random images from dataset directory for prediction
 	model will predict person name
 	dlib library used for detecting face
-
+```
 ### Model Summary
-
+```
 ```_________________________________________________________________
 Layer (type)                 Output Shape              Param # 
 =================================================================
