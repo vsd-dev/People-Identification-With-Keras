@@ -102,12 +102,8 @@ Non-trainable params: 1,920
 * [Keras](https://keras.io/) - The neural networks API used
 * [SKLearn](https://scikit-learn.org/stable/documentation.html) - Pre-processing 
 * [OpenCV](https://opencv.org/) - Image Processing Library used
-* [DATASET](datasetlink)
-* [Pre-trained Model](Link)
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+* [DATASET](datasetlink) - Pending 
+* [Pre-trained Model](Link) - Pending
 
 ## Author
 
@@ -117,10 +113,4 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
 
