@@ -1,4 +1,4 @@
-# Project Title
+# People-Identification-With-Keras
 
 A Deep Learning model that recognizes people from a set of images. Model trained on dataset that contains around 5k images. Dataset used for this project is class imbalanced, model accuracy can be increased by using a balanced dataset.
 
