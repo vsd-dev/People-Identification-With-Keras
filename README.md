@@ -12,6 +12,8 @@ Repository contains:
 ```
 ### Prerequisites/How to Run
 ```
+* Put training images inside Dataset directory
+
 * Activate virtual env(python3)
 
 * RUN requirement.txt
