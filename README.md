@@ -10,9 +10,11 @@ Repository contains:
   3-prediction.ipynb: Prediction script for recognizing people
   base_model_vgg.py: Model script(Here I used Mini VGGNet)
 ```
-### Prerequisites
+### Prerequisites/How to Run
 ```
 * Activate virtual env(python3)
+
+* RUN requirement.txt
 
 * Run 1-1-pre_processing.ipynb for preprocess images
 	This will create train and test meta data files for further processing
