@@ -31,61 +31,61 @@ Repository contains:
 ### Model Summary
 ```
 ```_________________________________________________________________
-Layer (type)                 Output Shape              Param # 
+Layer (type)                 Output Shape              Param #
 =================================================================
 conv2d_1 (Conv2D)            (None, 64, 64, 32)        896
 _________________________________________________________________
-activation_1 (Activation)    (None, 64, 64, 32)        0 
+activation_1 (Activation)    (None, 64, 64, 32)        0
 _________________________________________________________________
 batch_normalization_1 (Batch (None, 64, 64, 32)        128
 _________________________________________________________________
 conv2d_2 (Conv2D)            (None, 64, 64, 32)        9248
 _________________________________________________________________
-activation_2 (Activation)    (None, 64, 64, 32)        0 
+activation_2 (Activation)    (None, 64, 64, 32)        0
 _________________________________________________________________
-batch_normalization_2 (Batch (None, 64, 64, 32)        128 
+batch_normalization_2 (Batch (None, 64, 64, 32)        128
 _________________________________________________________________
-max_pooling2d_1 (MaxPooling2 (None, 32, 32, 32)        0 
+max_pooling2d_1 (MaxPooling2 (None, 32, 32, 32)        0
 _________________________________________________________________
-dropout_1 (Dropout)          (None, 32, 32, 32)        0 
+dropout_1 (Dropout)          (None, 32, 32, 32)        0
 _________________________________________________________________
-conv2d_3 (Conv2D)            (None, 32, 32, 64)        18496 
+conv2d_3 (Conv2D)            (None, 32, 32, 64)        18496
 _________________________________________________________________
-activation_3 (Activation)    (None, 32, 32, 64)        0 
+activation_3 (Activation)    (None, 32, 32, 64)        0
 _________________________________________________________________
-batch_normalization_3 (Batch (None, 32, 32, 64)        256 
+batch_normalization_3 (Batch (None, 32, 32, 64)        256
 _________________________________________________________________
-conv2d_4 (Conv2D)            (None, 32, 32, 64)        36928 
+conv2d_4 (Conv2D)            (None, 32, 32, 64)        36928
 _________________________________________________________________
-activation_4 (Activation)    (None, 32, 32, 64)        0 
+activation_4 (Activation)    (None, 32, 32, 64)        0
 _________________________________________________________________
-batch_normalization_4 (Batch (None, 32, 32, 64)        256 
+batch_normalization_4 (Batch (None, 32, 32, 64)        256
 _________________________________________________________________
-max_pooling2d_2 (MaxPooling2 (None, 16, 16, 64)        0 
+max_pooling2d_2 (MaxPooling2 (None, 16, 16, 64)        0
 _________________________________________________________________
-dropout_2 (Dropout)          (None, 16, 16, 64)        0 
+dropout_2 (Dropout)          (None, 16, 16, 64)        0
 _________________________________________________________________
 conv2d_5 (Conv2D)            (None, 16, 16, 128)       73856
 _________________________________________________________________
 activation_5 (Activation)    (None, 16, 16, 128)       0
 _________________________________________________________________
-batch_normalization_5 (Batch (None, 16, 16, 128)       512 
+batch_normalization_5 (Batch (None, 16, 16, 128)       512
 _________________________________________________________________
 conv2d_6 (Conv2D)            (None, 16, 16, 128)       147584
 _________________________________________________________________
-activation_6 (Activation)    (None, 16, 16, 128)       0 
+activation_6 (Activation)    (None, 16, 16, 128)       0
 _________________________________________________________________
-batch_normalization_6 (Batch (None, 16, 16, 128)       512 
+batch_normalization_6 (Batch (None, 16, 16, 128)       512
 _________________________________________________________________
-max_pooling2d_3 (MaxPooling2 (None, 8, 8, 128)         0 
+max_pooling2d_3 (MaxPooling2 (None, 8, 8, 128)         0
 _________________________________________________________________
-dropout_3 (Dropout)          (None, 8, 8, 128)         0 
+dropout_3 (Dropout)          (None, 8, 8, 128)         0
 _________________________________________________________________
-flatten_1 (Flatten)          (None, 8192)              0 
+flatten_1 (Flatten)          (None, 8192)              0
 _________________________________________________________________
-dense_1 (Dense)              (None, 512)               4194816 
+dense_1 (Dense)              (None, 512)               4194816
 _________________________________________________________________
-activation_7 (Activation)    (None, 512)               0 
+activation_7 (Activation)    (None, 512)               0
 _________________________________________________________________
 batch_normalization_7 (Batch (None, 512)               2048
 _________________________________________________________________
@@ -102,17 +102,19 @@ Non-trainable params: 1,920
 ## References
 
 * [Keras](https://keras.io/) - The neural networks API used
-* [SKLearn](https://scikit-learn.org/stable/documentation.html) - Pre-processing 
+* [SKLearn](https://scikit-learn.org/stable/documentation.html) - Pre-processing
 * [OpenCV](https://opencv.org/) - Image Processing Library used
-* [DATASET](datasetlink) - Pending 
+* [DATASET](datasetlink) - Pending
 * [Pre-trained Model](Link) - Pending
 
 ## Author
 
 * **Vishnu S Dev** - *Initial work* - [sherlocked777](https://github.com/sherlocked777)
 
+## Discussions
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
-
+* Model is trained for 200 epochs. Model accuracy is 84%[NVIDIA GForce 1050 Ti]
+* It took around 3 hours to train the model with GPU
+* The same can be trained using CPU
+* Reduce batch size for training with CPU
+* By tuning hyper parameters, accuracy can be improved
